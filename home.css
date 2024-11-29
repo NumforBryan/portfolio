@@ -494,6 +494,11 @@ footer .footer-container .footer-credits p {
         border-radius: 10px;
         margin-top: 10px;
     }
+
+    main .main-carousel {
+        
+        padding: 0px 00px;
+    }
     main .projects{
         display: flex;
         flex-direction: column;
