@@ -1,0 +1,359 @@
+body {
+    background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+}
+
+#container1{
+    height: 1000px;
+    
+}
+#container1 .face {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#container1 .face img {
+    width: 80px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+#container1 .face a {
+    width: 50px;
+    height: 60px;
+}
+#container1 .face button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 30px;
+    border: none;
+    margin-top: 30px;
+}
+#container1 .center {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+#container1 .center .page1 {
+    background-color: rgba(243, 239, 240, 0.87);
+    height: 670px;
+    width: 458px; ;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 8px whitesmoke;
+    
+}
+.page1 .head {
+    text-align: center;
+    font-family: poppins;
+
+}
+.page1 form {
+    padding: 0 15px 0 15px;
+}
+.page1 form .name {
+    height: 43px;
+    padding-top: 2px;
+}
+
+.page1 form .name .name1 {
+    height: 34px;
+    width: 200px;
+    margin-right: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    
+}
+.page1 form .name .name2 {
+    height: 34px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.page1 form .hbd {
+    height: 38px;
+    padding-top: 1px;
+}
+.page1 form .hbd .month1 {
+    height: 36px;
+    width: 135px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.page1 form .hbd .month2 {
+    height: 36px;
+    width: 134px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.page1 form .hbd .month3 {
+    height: 36px;
+    width: 135px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.page1 form .gender{
+    height: 36px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 1px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+.page1 form .gender .gender1 {
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top: 5px;
+    height: 25px;
+    width: 160px;
+    border-radius: 4px;
+    margin-right: 11px;
+    border-style: ridge;
+}
+.page1 form .gender .gender2 {
+    height: 25px;
+    width: 160px;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 11px;
+    border-style: ridge;
+}
+
+.page1 form .num1 {
+    width: 411px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.page1 form  .num2 {
+    width: 411px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.page1 form .text .text1 {
+    font-size: 12px;
+}
+.page1 form button {
+    padding: 5px 50px ;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(31, 167, 31);
+    cursor: pointer;
+}
+.page1 form button:hover {
+    background-color: rgb(11, 104, 19);
+}
+
+.page1 form .link {
+    font-size: 18px;
+}
+
+@media (min-width:960px){
+    #container2 {
+        display: none;
+    }
+}
+@media (max-width:959px) {
+    #container1 {
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    #container2 {
+        background-color: rgb(42, 61, 165);
+        height: 900px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+    }
+
+    #container2 .top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 10px;
+    }
+    #container2 .back-arrow {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        font-size: 30px;
+        border: none;
+        margin-top: 30px;
+    }
+
+    #container2 .pic img {
+        height: 60px;
+        width: 80px;
+        border-radius: 50px;
+        
+    }
+
+    #container2 .centralize{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #container2 .side {
+        background-color: rgb(243, 233, 233);
+        width: 250px;
+        text-align: center;
+        padding: 10px 20px 20px 20px;
+        height: 610px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    
+
+    #container2 .side .header {
+        padding: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid black;
+    }
+
+#container2 .side form .names input {
+        width: 210px;
+        height: 30px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        color: black;
+    }
+
+    #container2 .side form .birthday {
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    #container2 .side form .birth{
+        margin-bottom: 8px;
+    }
+
+
+
+    #container2 .side form .birth .months {
+        width: 92px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding: 1px;
+        font-size: 14px;
+    }
+
+    #container2 .side form .birth .days {
+        width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding: 6px;
+        font-size: 13px;
+
+    }
+
+    #container2 .side form .birth .years {
+        width: 65px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    #container2 .side form .gender2 {
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    #container2 .side form .gender {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        padding: 1px 1px 1px 1px;
+    }
+
+    #container2 .side form .gender .female {
+        width: 95px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 16px;
+        background-color: white;
+    }
+
+    #container2 .side form .gender .male {
+        width: 95px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding: 1px;
+        font-size: 16px;
+        padding: 8px;
+        background-color: white;
+        
+    }
+
+    #container2 .side form .num input {
+        width: 210px;
+        height: 30px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        color: black;
+    }
+
+    #container2 .side form .text  {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    #container2 .side form button {
+        width: 80px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+        background-color: rgb(153, 95, 207);
+        margin-bottom: 8px;
+    }
+
+    #container2 .side form button:hover {
+        background-color: blueviolet;
+    }
+    
+
+    
+
+
+}

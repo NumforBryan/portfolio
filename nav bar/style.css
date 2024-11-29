@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+}
+
+#container1 main .nav1 {
+    padding: 20px 50px 20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    height: 110px;
+    background-color: whitesmoke;
+}
+
+#container1 main .nav1 .logo {
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+}
+#container1 main .nav1 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#container1 main .nav1 ul li{
+    font-size: 20px;
+    color: black;
+}
+
+#container1 main .nav1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#container1 main .nav1 .icon input {
+    width: 300px;
+    height: 35px;
+    text-align: right;
+    padding: 10px;
+    color: black;
+    background-color: rgb(204, 198, 198);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    
+}
+#container1 main .nav1 .icon {
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#container1 main .nav1 .icon button {
+    width: 50px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#container1 main .nav1 .icon .profiles {
+    display: none;
+    
+    
+}
+
+#container1 main .nav1 .icon .profiles .details {
+    position: absolute;
+    background-color: rgba(212, 202, 202, 0.575);
+    margin-top: 72px;
+    margin-left: 110px;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    width:380px ;
+    height: 300px;
+    border: 5px solid whitesmoke;
+}
+
+#container1 main .nav1 .icon .profiles .details p {
+    font-size: 18px;
+}
+#container1 main .nav1 .icon .profiles .details .picture {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+#container1 main .nav1 .icon .profiles .details a {
+    font-size: 15px;
+    text-decoration: none;
+    
+
+}
+
+#container1 main .nav1 .icon .profiles .details .link {
+    margin-right: 30px;
+}
+
+
+
+
+
+@media (min-width:950px) {
+    #container2 main .nav2 {
+        display: none;
+    }
+}
+@media (max-width:949px) {
+    #container1 main .nav1 {
+        display: none;
+    }
+
+    #container2 main .nav2{
+        padding: 20px;
+        width: 100%;
+        height: 120px;
+        background-color: whitesmoke;
+        border-bottom: 1px solid black;
+    }
+
+    #container2 main .nav2 .mini-nav {
+        display: flex;
+        justify-content: space-between;
+        j
+    }
+
+    #container2 main .nav2 .mini-nav .icon {
+        /* background-color: blueviolet; */
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        gap: 25px;
+    }
+
+    #container2 main .nav2 .mini-nav .logo2 {
+        width: 90px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    #container2 main .nav2 .mini-nav p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #container2 main .nav2 input {
+        background-color: rgba(128, 128, 128, 0.5);
+        margin: 10px;
+        width: 300px;
+        height: 28px;
+        font-size: 15px;
+        text-align: right;
+        padding: 10px;
+        color: black;
+        border: none;
+        border-radius: 10px;
+    }
+
+
+
+
+    #container2 main .nav2 .mini-nav .icon button {
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        font-weight: bolder;
+        border: none;
+    }
+    #container2 main .nav2 .mini-nav .icon .menu-bar {
+        background-color: #333;
+        display: none;
+    }
+    
+    #container2 main .nav2 .mini-nav .icon .menu-bar ul {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.801);
+        margin-top: 40px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        list-style: none;
+        width: 300px;
+        height: 350px;
+        color: white;
+        padding: 20px;
+        border: 3px solid black;
+        font-size: 18px;
+    }
+
+    #container2 main .nav2 .mini-nav .icon .menu-bar ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #container2 main .nav2 .mini-nav button {
+        width: 30px;
+        font-size: 20px;
+        height: 55px;
+        padding-top: 2px;
+        border: none;
+        cursor: pointer;
+        
+    }
+
+    #container2 main .nav2 .mini-nav .profilez {
+        display: none;
+        position: absolute;
+        
+    }
+    
+    #container2 main .nav2 .mini-nav .profilez  .detail {
+        background-color: rgba(212, 202, 202, 0.644);
+        margin-top: 105px;
+        padding: 15px;
+        text-align: center;
+        width: 210px;
+        height: 220px;
+        color: black;
+        border-radius: 15px;
+        margin-left: 145px;
+        
+    }
+
+    #container2 main .nav2 .mini-nav .profilez  .detail .email {
+        font-size: 18px;
+    }
+
+    #container2 main .nav2 .mini-nav .profilez  .detail .pictures {
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        margin: 3px;
+    }
+
+    #container2 main .nav2 .mini-nav .profilez  .detail a {
+        font-size: 15px;
+        text-decoration: none;
+        padding: 0;
+    }
+    
+
+}
