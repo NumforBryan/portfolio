@@ -1,0 +1,86 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+    width: 100%;
+}
+.page {
+    /* background-color: rgb(233, 238, 238); */
+    height: 900px;
+}
+.button3 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+    cursor: pointer;
+}
+.but33 {
+    text-decoration: none;
+}
+.button3:hover{
+    background-color: rgb(219, 9, 9);
+    
+}
+.facebook {
+    text-align: center;
+    color: rgb(0, 119, 255);
+    padding-top: 10px;
+    font-size: 40px;
+    user-select: none;
+}
+.page1 {
+    text-align: center;
+    background-color: rgb(247, 249, 250);
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+
+.log {
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+.button1 {
+    padding: 11px 155px;
+    font-size: 18px;
+    background-color: rgb(8, 139, 247);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1:hover {
+    background: rgb(10, 102, 187);
+    padding: 11px 155px;-block: 100px;
+    
+}
+
+.button2 {
+    padding: 9px 10px;
+    font-size: 18px;
+    background-color: rgb(13, 175, 21);
+    color: white;
+    border-radius: 5px;
+    
+    
+}
+.button2:hover {
+    background: rgb(6, 151, 25);
+    padding: 9px 10px;-block: 100px;
+    cursor: pointer;
+}
+
+.but {
+    text-align: center;
+    
+}
+
+.name {
+    width: 350px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+}

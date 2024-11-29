@@ -1,0 +1,164 @@
+@font-face{
+    font-family: poppins;
+    src:url(./font/Poppins-Medium.ttf)
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+}
+.page1 {
+    height: 1000px;
+    
+    
+}
+.face {
+    color: rgb(47, 125, 228);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:1px;
+    text-align: center;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+#container {
+    background-color: rgba(243, 239, 240, 0.959);
+    height: 620px;
+    width: 458px; ;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 8px whitesmoke;
+}
+.head {
+    text-align: center;
+    font-family: poppins;
+
+}
+form {
+    padding: 0 15px 0 15px;
+}
+.name {
+    height: 43px;
+    padding-top: 2px;
+    
+    /* background-color: blue; */
+}
+
+.name1 {
+    height: 34px;
+    width: 200px;
+    margin-right: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    
+}
+.name2 {
+    height: 34px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.hbd {
+    height: 38px;
+    padding-top: 1px;
+}
+.month1 {
+    height: 36px;
+    width: 135px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.month2 {
+    height: 36px;
+    width: 134px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.month3 {
+    height: 36px;
+    width: 135px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.gender{
+    height: 36px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 1px;
+    margin-bottom: 12px;
+}
+.gender1 {
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top: 5px;
+    height: 25px;
+    width: 135px;
+    border-radius: 4px;
+    margin-right: 11px;
+    border-style: ridge;
+}
+.gender2 {
+    height: 25px;
+    width: 135px;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 11px;
+    border-style: ridge;
+}
+.gender3 {
+    height: 25px;
+    width: 135px;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 16px;
+    border-radius: 4px;border-style: ridge;
+    
+}
+
+.num {
+    
+}
+.num1 {
+    width: 411px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.num2 {
+    width: 411px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.text1 {
+    font-size: 12px;
+}
+button {
+    padding: 5px 50px ;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(31, 167, 31);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(11, 104, 19);
+}
+
+.link {
+    font-size: 18px;
+}
