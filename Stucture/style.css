@@ -1,0 +1,61 @@
+:root {
+    --back:rgb(189, 121, 121);
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 1, 0.801),rgba(0, 0, 1, 0.904)), url(./bacground.jpg) ;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.div2 {
+    /* padding: 1em 2em 2em 1em; */
+    
+    
+}
+header {
+    background-color: var(--back);
+    margin: 2em 0 2em 0;
+    padding: 3em 2em 4em 1em;
+}
+
+nav {
+    background-color: rgb(228, 166, 190);
+    margin: 0 0 2em 0;
+    padding: 1em 2em 2em 1em;
+}
+
+main {
+    display: flex;
+    background-color: yellow;
+    gap: 2em;
+    height:10em ;
+    margin: 0 0 2em 0;
+    padding: 1em 2em 2em 1em;
+   
+}
+
+article {
+    background-color: blue;
+    width: 70%;
+    
+}
+aside {
+    background-color: aquamarine;
+    width: 30%;
+}
+
+footer {
+    background-color:var(--back);
+}
+
+@media (max-width:949px) {
+
+}
